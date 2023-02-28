@@ -262,25 +262,35 @@ header {
 
 /* ---------- Level One ----------- */
 
-.l1 {
+.level {
     margin: 3rem 3rem;
 }
 
-.l1-head {
+.level-head {
     width: 90rem;
     border-bottom: 0.2rem solid var(--primary-color);
-    
 }
 
-.l1-body {
+.level-head h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.level-body {
     background-color: #f2f3f5;
     height: 100%;
     padding: 2rem 2rem;
 }
 
-.l1-val {
+.level-val {
     padding-bottom: 2rem;
     font-size: 1.4rem;
+}
+
+.level-qstn {
+    padding-bottom: 1rem;
 }
 
 .form-check-inline {

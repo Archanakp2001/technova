@@ -1,4 +1,4 @@
-export const l1data = [
+export const l1task1data = [
     {
         qstn: "How long is an IPv6 address?",
         option1: "32 bits",

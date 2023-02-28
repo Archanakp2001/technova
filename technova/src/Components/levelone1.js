@@ -1,18 +1,19 @@
 import React from 'react'
-import { l1data } from './l1data'
+import { l1task1data } from './l1task1data'
 
-const LevelOne = () => {
+const LevelOne1 = () => {
   return (
     <>
-      <div className="l1">
-        <div className="l1-head">
+      <div className="level">
+        <div className="level-head">
           <h1>Level One</h1>
+          <h3>Task 1</h3>
         </div>
-        <div className="l1-body">
+        <div className="level-body">
           <form>
-            <ol className="l1-data">
-              {l1data.map((val, key) => {
-                return <li key={key} className="l1-val">
+            <ol className="level-data">
+              {l1task1data.map((val, key) => {
+                return <li key={key} className="level-val">
                   <div>
                     <label class="form-check-label" for="inlineRadio1">{val.qstn}</label>
                   </div>
@@ -49,4 +50,4 @@ const LevelOne = () => {
 }
 
 
-export default LevelOne
+export default LevelOne1
