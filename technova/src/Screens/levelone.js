@@ -7,14 +7,35 @@ import LevelOne3 from '../Components/levelone3';
 
 const LevelOne = () => {
     return (
-        <>
+        <div className="dashboard">
         <Dashboardnav />
         <div className="dashboard-row">
             <div><Sidebar /></div>
-            <div><LevelOne1 /></div>
+            <div><LevelOne2 /></div>
         </div>
-        </>
+        </div>
     )
 }
 
 export default LevelOne
+
+
+
+// USER
+//  uname 
+//  pwd 
+// selected
+
+//  Level1 Answers
+
+//  dwa 
+//  adwdwa 
+//  dawwda 
+
+//  Level2 ,2
+
+//level 4,5
+//only selected
+
+// ADMIN 
+// show finalists

@@ -17,6 +17,7 @@ const LevelOne3 = () => {
                                     <div className="level-qstn">
                                         <label class="form-check-label" for="inlineRadio1">{val.qstn}</label>
                                     </div>
+                                    <img src='../../public/images/level1-task3.jpeg'/>
                                     <div class="form-outline mb-4">
                                         <textarea class="form-control" id="form4Example3" rows="4"></textarea>
                                     </div>
@@ -35,6 +36,5 @@ const LevelOne3 = () => {
         </>
     )
 }
-
 
 export default LevelOne3

@@ -5,15 +5,15 @@ import LevelOne from './levelone';
 
 const App = () => {
   return (
-    // <div className="Home">
-    //  <Navbar />
-    //   <Header /> 
-    <>
-      <LevelOne />
+    <div className="Home">
+     <Navbar />
+      <Header /> 
+     
+    {/* <LevelOne /> */}
       
-    </>
-    // </div>
+     </div>
   );
 };
 
-export default App
+// export default App
+export default LevelOne

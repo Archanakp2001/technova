@@ -1,156 +1,177 @@
 export const l1task1data = [
     {
-        qstn: "How long is an IPv6 address?",
-        option1: "32 bits",
-        option2: "18 bits",
-        option3: "128 bits",
-        option4: "64 bits"
+        qstn: "Ipv6 protocol number is ______",
+        option1: "88",
+        option2: "47",
+        option3: "4",
+        option4: "41"
     },
     {
-        qstn: "Host nation of FIFA World Cup 2018.",
-        option1: "Russia",
-        option2: "India",
-        option3: "Brazil",
-        option4: "America"
+        qstn: "AD (administrative Distance) value of EIGRP ",
+        option1: "120",
+        option2: "90",
+        option3: "110",
+        option4: "130"
     },
     {
-        qstn: "First online radio station.",
-        option1: "Radio Sansar",
-        option2: "Radio Umang",
-        option3: "Radio Aadhar",
-        option4: "Radio Teacup"
+        qstn: "Which was the world's first successful electronic computer?",
+        option1: "PARAM",
+        option2: "CRAY-1",
+        option3: "Pascaline",
+        option4: "ENIAC"
     },
     {
-        qstn: "Group of 4 bits forms a _________",
-        option1: "Byte",
-        option2: "Nibble",
-        option3: "Gigabyte",
-        option4: "Terabyte"
+        qstn: "Who among the following used the term computer worm for the first time?",
+        option1: "John Brunner",
+        option2: "Alan Turing",
+        option3: "John McCarthy",
+        option4: "JP Eckert"
     },
     {
-        qstn: "The famous Dilwara Temples are located in ___________",
-        option1: "Uttar Pradesh",
-        option2: "Rajasthan",
-        option3: "Maharashtra",
-        option4: "Madhya Pradesh"
+        qstn: "Which of the following team awarded FIFA 2022 Fair Play Award?",
+        option1: "France",
+        option2: "England",
+        option3: "Portugal",
+        option4: "Argentina"
     },
     {
-        qstn: "Which mobile company first introduced the Emoji internationally on their mobile devices?",
-        option1: "Apple",
-        option2: "Samsung",
-        option3: "Motorola",
-        option4: "Blackberry"
+        qstn: "The first ambulance for street animals has been launched in which of following cities?",
+        option1: "Chennai",
+        option2: "Mumbai",
+        option3: "Delhi",
+        option4: "Bengaluru"
     },
     {
-        qstn: "Which online video streaming service has toughened the rules regarding which videos will get advertisements?",
-        option1: "Facebook",
-        option2: "Hotstar",
-        option3: "Dailymotion",
-        option4: "Youtube"
+        qstn: "India is a federal union comprising twenty-eight states and how many union territories?",
+        option1: "6",
+        option2: "7",
+        option3: "8",
+        option4: "9"
     },
     {
-        qstn: "Who is the first robot citizen?",
-        option1: "Cindrella",
-        option2: "Sophia",
-        option3: "Mercy",
-        option4: "Mikha"
+        qstn: "who among the following has become the leading run score in T-20 internationals?",
+        option1: "virat kohli",
+        option2: "rohit sharma",
+        option3: "martin guptill",
+        option4: "shikhar dhawan"
     },
     {
-        qstn: "World Wibe Web is being standard by",
-        option1: "World Wide Corporation",
-        option2: "W3C",
-        option3: "World Wide Consortium",
-        option4: "World Wide Web Standard"
+        qstn: "Which operator can be used to compare two values?",
+        option1: "=",
+        option2: "==",
+        option3: "><",
+        option4: "<>"
     },
     {
-        qstn: "ASCII has how many codes?",
-        option1: "64",
-        option2: "128",
-        option3: "256",
-        option4: "382"
+        qstn: "What is the full form of PDF?",
+        option1: "paint document format",
+        option2: "print document format",
+        option3: "portable document format ",
+        option4: "print document file"
     },
     {
-        qstn: "The Chief Minister of which state launched the 'Shakthi' App to ensure women's safety? ",
-        option1: "Maharshtra",
-        option2: "Delhi",
-        option3: "Himachal Pradesh",
-        option4: "Uttar Pradesh"
+        qstn: "What is the maximum number of characters per tweet?",
+        option1: "280",
+        option2: "120",
+        option3: "240",
+        option4: "145"
     },
     {
-        qstn: "In India GST become effective from",
-        option1: "1st April 2017",
-        option2: "1st January 2017",
-        option3: "1st July 2017",
-        option4: "1st March 2017"
+        qstn: "Which among the following countries has announced to make artificial sun by 2026?",
+        option1: "South Korea",
+        option2: "North Korea",
+        option3: "Japan",
+        option4: "India"
     },
     {
-        qstn: "Which country on the world has maximum number of robots working?",
-        option1: "Japan",
-        option2: "China",
-        option3: "US",
+        qstn: "Which is the internet’s first search engine?",
+        option1: "Google",
+        option2: "Archie",
+        option3: "Altavista",
+        option4: "WAIS"
+    },
+    {
+        qstn: "The sum of the place value of 3 in the number 503535 is _________",
+        option1: "6",
+        option2: "60",
+        option3: "3030",
+        option4: "3300"
+    },
+    {
+        qstn: "What is the relationship between resistivity 'r' and conductivity 's'?",
+        option1: "R=S^2",
+        option2: "R=S",
+        option3: "R>S",
+        option4: "R=1/S"
+    },
+    {
+        qstn: "Which of the following countries destroyed the world’s largest aircraft ‘Mriya’?",
+        option1: "India",
+        option2: "USA",
+        option3: "China",
         option4: "Russia"
     },
     {
-        qstn: "From what location are the 1st computer instructions are available on boot up?",
-        option1: "CPU",
-        option2: "ROM BIOS",
-        option3: "CONFIG.SYS",
-        option4: "book.inc"
+        qstn: "Cyclone Emnati hits which of the following countries on February 28,2022?",
+        option1: "tanzania",
+        option2: "uganda",
+        option3: "madagascar",
+        option4: "somalia"
     },
     {
-        qstn: "ISRO will launch Aditya L1 Mission on which year?",
-        option1: "2020",
-        option2: "2021",
-        option3: "2019",
-        option4: "2018"
+        qstn: "Which of the following banks has launched green deposit program ?",
+        option1: "HDFC",
+        option2: "DBS bank of India",
+        option3: "ICIC",
+        option4: "SBI"
     },
     {
-        qstn: "What is the term used for describing the judgemental or commonsense part of problem solving?",
-        option1: "Heuristics",
-        option2: "Critical",
-        option3: "Value based",
-        option4: "None of them"
+        qstn: "who was the prime minister of England when india got independence?",
+        option1: "Attlee",
+        option2: "Churchill",
+        option3: "Thatcher",
+        option4: "Wilson"
     },
     {
-        qstn: "Who is the father of AI?",
-        option1: "John McCarthy",
-        option2: "Donald Mlchie",
-        option3: "Lofti Zaden",
-        option4: "Allen Turing"
+        qstn: "Machines that try to imitate human intuition while handling vague information lie in the field of AI called?",
+        option1: "functional logic",
+        option2: "Fuzzy logic",
+        option3: "Boolean logic",
+        option4: "Human logic"
     },
     {
-        qstn: "Nobel Price was first awarded in",
-        option1: "1901",
-        option2: "1976",
-        option3: "1958",
-        option4: "1904"
+        qstn: "Which one of the following states, first created telephone directory on Internet?",
+        option1: "Tamil nadu",
+        option2: "Sikkim",
+        option3: "Kerala",
+        option4: "Karnataka"
     },
     {
-        qstn: "The term 'Butterfly Stroke' is referred to in which sport?",
-        option1: "Hokey",
-        option2: "Tennis",
-        option3: "Swimming",
-        option4: "Golf"
+        qstn: "Computer hard disk was first  introduced in 1956 by",
+        option1: "Dell",
+        option2: "hp",
+        option3: "Microsoft",
+        option4: "IBM"
     },
     {
-        qstn: "Along with whom did Bill Gates found Microsoft?",
-        option1: "Paul Allen",
-        option2: "Larie Page",
-        option3: "Charles Ranlet",
-        option4: "Steve Jobs"
+        qstn: "In which year @ sign was chosen for its use I e-mail address ",
+        option1: "1976",
+        option2: "1980",
+        option3: "1977",
+        option4: "1972"
     },
     {
-        qstn: "First Indian movie submitted for Oscar?",
-        option1: "The Guide",
-        option2: "Mother India",
-        option3: "Madhumathi",
-        option4: "Amrapali"
+        qstn: "What is the extension type of the excel 2007 file?",
+        option1: ".xls",
+        option2: ".xslx",
+        option3: ".xls",
+        option4: "None of these"
     },
     {
-        qstn: "Which is the first Golden Jubilee film of India?",
-        option1: "Pundalik",
-        option2: "Alam Ara",
-        option3: "Sant Tukaram",
-        option4: "Raja Harishchandran"
+        qstn: "The world’s first hotel for camels has been established in which among the following countries",
+        option1: "Saudi Arabia",
+        option2: "UAE",
+        option3: "Kuwait",
+        option4: "Qatar"
     },
 ]
