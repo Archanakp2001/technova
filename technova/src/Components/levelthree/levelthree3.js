@@ -1,29 +1,34 @@
 import React from 'react'
-import { l1task2data } from './l1task2data'
+import Sidebar from '../sidebar'
+import { l3task3data } from './data/l3task3data'
 
-const LevelOne2 = () => {
+const LevelThree3 = () => {
     return (
         <>
             <div className="level">
                 <div className="level-head">
-                    <h1>Level One</h1>
-                    <h3>Task 2</h3>
+                    <h1>Level Three</h1>
+                    <h3>Task 3</h3>
                 </div>
                 <div className="level-body">
                     <form>
-                        <ol className="level-data">
-                            {l1task2data.map((val, key) => {
+                        <ul className="level-data">
+                            {l3task3data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
                                         <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
                                     </div>
-                                    <div className="form-outline mb-4">
-                                        <textarea className="form-control" id="form4Example3" rows="4"></textarea>
+                                    <div className="level-image">
+                                        <img src={val.image1} height="500" width="500"/><br/>
+                                        <img src={val.image2} height="100" width="500"/>
+                                    </div>
+                                    <div>
+                                        <textarea className="form-control" id="form4Example3" rows="4"/>
                                     </div>
 
                                 </li>
                             })}
-                        </ol>
+                        </ul>
                         <div className="submit">
                             <button type="button" className="btn btn-success">Submit</button>
                         </div>
@@ -36,5 +41,4 @@ const LevelOne2 = () => {
     )
 }
 
-
-export default LevelOne2
+export default LevelThree3

@@ -1,11 +1,11 @@
 import React from 'react'
 import Dashboardnav from '../Components/dashboardnav'
 import Sidebar from '../Components/sidebar'
-import LevelOne1 from '../Components/levelone1';
-import LevelOne2 from '../Components/levelone2';
-import LevelOne3 from '../Components/levelone3';
-import LevelOne4 from '../Components/levelone4';
-import LevelOne5 from '../Components/levelone5';
+import LevelOne1 from '../Components/levelone/levelone1';
+import LevelOne2 from '../Components/levelone/levelone2';
+import LevelOne3 from '../Components/levelone/levelone3';
+import LevelOne4 from '../Components/levelone/levelone4';
+import LevelOne5 from '../Components/levelone/levelone5';
 
 const LevelOne = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { l1task5data } from './l1task5data'
+import { l1task5data } from './data/l1task5data'
 
 const LevelOne5 = () => {
     return (

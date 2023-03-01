@@ -282,6 +282,7 @@ label {
 
 .level-qstn {
     padding-bottom: 1rem;
+    text-align: justify;
 }
 
 .form-check-inline {
@@ -314,6 +315,16 @@ label {
 
 .level-body ul {
     list-style: none;
+}
+
+/* -------------level 3 task1--------------- */
+
+.upload {
+    width: 30rem;
+}
+
+.l3-t2 {
+    height: 100vh;
 }
 
 /* ------------ Responsive media queries --------------- */

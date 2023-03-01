@@ -1,6 +1,6 @@
 export const l1task2data = [
     {
-        qstn: "Identify the correct option among the given alternative to complete the series 3,8,13, 24, 41, ?"
+        qstn: "Complete the series 3,8,13, 24, 41, ?"
     },
     {
         qstn: "The process of searching bugs in software is called?"

@@ -1,24 +1,24 @@
 import React from 'react'
 import Dashboardnav from '../Components/dashboardnav'
 import Sidebar from '../Components/sidebar'
-import LevelTwo1 from '../Components/leveltwo/leveltwo1'
-import LevelTwo2 from '../Components/leveltwo/leveltwo2'
-import LevelTwo3 from '../Components/leveltwo/leveltwo3'
-import LevelTwo4 from '../Components/leveltwo/leveltwo4'
+import LevelThree1 from '../Components/levelthree/levelthree1'
+import LevelThree2 from '../Components/levelthree/levelthree2'
+import LevelThree3 from '../Components/levelthree/levelthree3'
 
-const LevelTwo = () => {
+const LevelThree = () => {
     return (
         <div className="dashboard">
         <Dashboardnav />
         <div className="dashboard-row">
-            <div><Sidebar /></div>
-            <div><LevelTwo4 /></div>
+            <div><Sidebar /></div>  
+            <div className="l3-t2"><LevelThree2 /></div>
+            {/* <div><LevelThree1 /></div> */}
         </div>
         </div>
     )
 }
 
-export default LevelTwo
+export default LevelThree
 
 
 
