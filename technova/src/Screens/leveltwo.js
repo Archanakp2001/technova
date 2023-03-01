@@ -7,7 +7,7 @@ import LevelOne3 from '../Components/levelone3';
 import LevelOne4 from '../Components/levelone4';
 import LevelOne5 from '../Components/levelone5';
 
-const LevelOne = () => {
+const LevelTwo = () => {
     return (
         <div className="dashboard">
         <Dashboardnav />
@@ -19,7 +19,7 @@ const LevelOne = () => {
     )
 }
 
-export default LevelOne
+export default LevelTwo
 
 
 

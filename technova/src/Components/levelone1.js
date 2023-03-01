@@ -15,30 +15,30 @@ const LevelOne1 = () => {
               {l1task1data.map((val, key) => {
                 return <li key={key} className="level-val">
                   <div>
-                    <label class="form-check-label" for="inlineRadio1">{val.qstn}</label>
+                    <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions1${key}`} value="option1" />
-                    <label class="form-check-label" htmlFor={`inlineRadioOptions1${key}`}>{val.option1}</label>
+                  <div className="form-check form-check-inline">
+                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions1${key}`} value="option1" />
+                    <label className="form-check-label" htmlFor={`inlineRadioOptions1${key}`}>{val.option1}</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions2${key}`} value="option2" />
-                    <label class="form-check-label" htmlFor={`inlineRadioOptions2${key}`}>{val.option2}</label>
+                  <div className="form-check form-check-inline">
+                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions2${key}`} value="option2" />
+                    <label className="form-check-label" htmlFor={`inlineRadioOptions2${key}`}>{val.option2}</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions3${key}`} value="option3" />
-                    <label class="form-check-label" htmlFor={`inlineRadioOptions3${key}`}>{val.option3}</label>
+                  <div className="form-check form-check-inline">
+                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions3${key}`} value="option3" />
+                    <label className="form-check-label" htmlFor={`inlineRadioOptions3${key}`}>{val.option3}</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions4${key}`} value="option4" />
-                    <label class="form-check-label" htmlFor={`inlineRadioOptions4${key}`}>{val.option4}</label>
+                  <div className="form-check form-check-inline">
+                    <input className="form-check-input" type="radio" name="inlineRadioOptions" id={`inlineRadioOptions4${key}`} value="option4" />
+                    <label className="form-check-label" htmlFor={`inlineRadioOptions4${key}`}>{val.option4}</label>
                   </div>
     
                 </li>
               })}
             </ol>
             <div className="submit">
-                  <button type="button" class="btn btn-success">Submit</button>
+                  <button type="button" className="btn btn-success">Submit</button>
                   </div>
           </form>
 

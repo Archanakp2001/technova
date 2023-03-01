@@ -104,27 +104,6 @@ header {
     color: var(--main-text-color);
 }
 
-/* .main-herosection-images { 
-    position: relative;
-}
-
-.main-herosection-images img {
-    width: 60%;
-    height: 80%;
-    margin-top: 9rem;
-    box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.5rem;
-    position: relative;
-}
-
-.main-herosection-images .main-hero-img2 {
-    position: relative;
-    width: 80%;
-    height: 40%;
-    left: -25%;
-    top: -35%;
-} */
-
 .fstyle {
     margin-top: 5rem;
     margin-left: 12rem;
@@ -181,7 +160,8 @@ header {
 .dash-nav {
     height: 5rem;
     padding: 0 5rem;
-    background-color: rgb(134, 134, 242);
+    /* background-color: rgb(134, 134, 242); */
+    background-color: #333351;
     align-items: center;
 }
 
@@ -281,6 +261,7 @@ header {
 
 
 .level-body {
+    width: 100%;
     background-color: #f2f3f5;
     height: 100%;
     padding: 2rem 2rem;
@@ -289,6 +270,14 @@ header {
 .level-val {
     padding-bottom: 2rem;
     font-size: 1.4rem;
+}
+
+.level-image {
+    padding-bottom: 2rem;
+}
+
+label {
+    display: inline;
 }
 
 .level-qstn {
@@ -303,6 +292,10 @@ header {
     border: 0.1rem solid #999999;
 }
 
+.form-control {
+    padding: 1rem;
+}
+
 .submit {
     width: 100%;
     padding: 0 90%;
@@ -315,6 +308,12 @@ header {
 
 .wd {
     height: 100vh;
+}
+
+/* -------------Level 3 -------------- */
+
+.level-body ul {
+    list-style: none;
 }
 
 /* ------------ Responsive media queries --------------- */
