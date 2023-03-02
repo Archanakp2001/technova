@@ -15,10 +15,10 @@ const LevelThree2 = () => {
                             {l3task2data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn}</label>
                                     </div>
                                     <div>
-                                        <input type="file" className="form-control upload" id="form4Example3" rows="4"/>
+                                        <input type="file" className="form-control upload" id="formGroupExampleInput" rows="4"/>
                                     </div>
 
                                 </li>

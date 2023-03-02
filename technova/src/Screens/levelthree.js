@@ -11,8 +11,8 @@ const LevelThree = () => {
         <Dashboardnav />
         <div className="dashboard-row">
             <div><Sidebar /></div>  
-            <div className="l3-t2"><LevelThree2 /></div>
-            {/* <div><LevelThree1 /></div> */}
+            {/* <div className="l3-t2"><LevelThree2 /></div> */}
+            <div><LevelThree1 /></div>
         </div>
         </div>
     )

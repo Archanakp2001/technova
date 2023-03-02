@@ -15,11 +15,11 @@ const LevelTwo4 = () => {
                             {l2task4data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn}</label>
                                     </div>
                                     <div className="level-image"><img src={val.image} height="400" width="500"/></div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" rows="4"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" rows="4"/>
                                     </div>
 
                                 </li>

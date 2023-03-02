@@ -234,6 +234,7 @@ header {
 
 .dashboard {
     height: 100vh;
+    /* background: linear-gradient(45deg, rgb(205, 152, 245), rgb(233, 138, 215)); */
 }
 .dashboard-row {
     margin: 0;
@@ -295,6 +296,7 @@ label {
 
 .form-control {
     padding: 1rem;
+    font-size: 1.3rem;
 }
 
 .submit {

@@ -16,14 +16,14 @@ const LevelThree3 = () => {
                             {l3task3data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn}</label>
                                     </div>
                                     <div className="level-image">
                                         <img src={val.image1} height="500" width="500"/><br/>
                                         <img src={val.image2} height="100" width="500"/>
                                     </div>
                                     <div>
-                                        <textarea className="form-control" id="form4Example3" rows="4"/>
+                                        <textarea className="form-control" id="formGroupExampleInput" rows="4"/>
                                     </div>
 
                                 </li>

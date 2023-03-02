@@ -1,6 +1,6 @@
 export const l1task2data = [
     {
-        qstn: "Complete the series 3,8,13, 24, 41, ?"
+        qstn: "Complete the series 3, 8, 13, 24, 41, ?"
     },
     {
         qstn: "The process of searching bugs in software is called?"
@@ -37,7 +37,7 @@ export const l1task2data = [
         qstn: "1008 divided by which single digit number gives a perfect square?"
     },
     {
-        qstn: "------"
+        image: require('../../../images/l1task2.jpg')
     },
     {
         qstn: "A, B and C are partners of a company during a particular year. A received one third of the profit. B received one fourth of the profit and c received the remaining 5000. How much did A receive?"

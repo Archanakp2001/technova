@@ -15,70 +15,70 @@ const LevelOne5 = () => {
                             {l1task5data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para1}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para1}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para2}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para2}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para3}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para3}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para4}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para4}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para5}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para5}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.para6}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.para6}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn1}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn1}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn2}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn2}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn3}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn3}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn4}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn4}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn5}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn5}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn6}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn6}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn7}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn7}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn8}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn8}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn9}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn9}</label>
                                     </div>
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn10}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn10}</label>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 1"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 1"/>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 2"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 2"/>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 3"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 3"/>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 4"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 4"/>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 5"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 5"/>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <input type="text" className="form-control" id="form4Example3" placeholder=" paragraph 6"/>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" placeholder="paragraph 6"/>
                                     </div>
 
                                 </li>

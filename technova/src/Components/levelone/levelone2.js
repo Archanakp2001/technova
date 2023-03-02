@@ -15,10 +15,10 @@ const LevelOne2 = () => {
                             {l1task2data.map((val, key) => {
                                 return <li key={key} className="level-val">
                                     <div className="level-qstn">
-                                        <label className="form-check-label" for="inlineRadio1">{val.qstn}</label>
+                                        <label className="form-check-label" for="formGroupExampleInput">{val.qstn}<img src={val.image} width="200"/></label>
                                     </div>
                                     <div className="form-outline mb-4">
-                                        <textarea className="form-control" id="form4Example3" rows="4"></textarea>
+                                        <input type="text" className="form-control" id="formGroupExampleInput" rows="4"/>
                                     </div>
 
                                 </li>
