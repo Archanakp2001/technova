@@ -22,12 +22,12 @@ const Header = () => {
                         <div className="col-12 col-lg-6 header-right-side b-flex justify-content-between align-items-center">
                             <form className="fstyle">
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Username</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                                    {/* <label for="exampleInputEmail1" class="form-label">Username</label> */}
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Username'/>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1"/>
+                                    {/* <label for="exampleInputPassword1" class="form-label">Password</label> */}
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder='Password'/>
                                 </div>
                                 <div class="mb-3 btn-2">
                                     <button type="submit" class="btn btn-primary" >Log In</button>

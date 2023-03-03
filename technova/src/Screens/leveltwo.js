@@ -12,7 +12,7 @@ const LevelTwo = () => {
         <Dashboardnav />
         <div className="dashboard-row">
             <div><Sidebar /></div>
-            <div><LevelTwo4 /></div>
+            <div><LevelTwo1 /></div>
         </div>
         </div>
     )
