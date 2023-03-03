@@ -13,7 +13,7 @@ const LevelOne = () => {
         <Dashboardnav />
         <div className="dashboard-row">
             <div><Sidebar /></div>
-            <div><LevelOne5 /></div>
+            <div><LevelOne2 /></div>
         </div>
         </div>
     )

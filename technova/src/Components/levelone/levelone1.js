@@ -1,9 +1,14 @@
 import React from 'react'
+import Countdown from '../countdown'
 import { l1task1data } from './data/l1task1data'
 
 const LevelOne1 = () => {
   return (
     <>
+    <div className='countdown-container'>
+      <Countdown duration={10 * 60 * 1000}/>
+      </div>
+
       <div className="level">
         <div className="level-head">
           <h1>Level One</h1>
@@ -48,6 +53,5 @@ const LevelOne1 = () => {
     </>
   )
 }
-
 
 export default LevelOne1

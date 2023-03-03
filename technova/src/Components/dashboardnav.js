@@ -5,14 +5,14 @@ const Dashboardnav = () => {
   return (
     <>
     <section className="navbar-bg dash-nav">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand dashnav-brand" href="#">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <div className="container">
+            <a className="navbar-brand dashnav-brand" href="#">
               Technova 5.0
             </a>
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link dashnav-link" aria-current="page" href="#">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link dashnav-link" aria-current="page" href="#">
                     <img src="../../../images/user.png" className="userimg"/>
                     User
                   </a>

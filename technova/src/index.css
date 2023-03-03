@@ -330,6 +330,13 @@ label {
     height: 100vh;
 }
 
+/* -----------countdown --------------- */
+
+.countdown-container {
+   font-size: 3rem;
+   padding: 2rem 0 0 2rem;
+}
+
 /* ------------ Responsive media queries --------------- */
 
 @media (min-width: 1500px) {
